@@ -23,7 +23,7 @@ public class DurableKVStoreTest {
         //client is sure that key2 is saved
         kv.put("newTitle", "Distributed Systems");
         //client is sure that key3 is saved
-        //}
+       // }
 
         //KV crashes.
         kv.close();

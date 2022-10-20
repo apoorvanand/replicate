@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-class Network {
+class  Network {
     public static final int MESSAGE_DELAY = 1000;
 
     List<InetAddressAndPort> dropRequestsTo = new ArrayList<>();
